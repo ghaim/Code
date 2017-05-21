@@ -28,17 +28,6 @@
         android:textSize="20dp" />
 
     <EditText
-        android:id="@+id/View_ShopName"
-        android:layout_width="300dp"
-        android:layout_height="50dp"
-        android:layout_gravity="center"
-        android:layout_marginTop="29dp"
-        android:background="@drawable/back_nam"
-        android:gravity="center"
-        android:hint="إسم المتجر"
-        android:textSize="20dp" />
-
-    <EditText
         android:id="@+id/View_mobile"
         android:layout_width="300dp"
         android:layout_height="50dp"

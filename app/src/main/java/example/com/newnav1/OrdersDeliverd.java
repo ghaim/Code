@@ -33,7 +33,7 @@ public class OrdersDeliverd extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_orders_waiting);
-        setTitle("قيد التوصيل");
+        setTitle("تم التوصيل");
         app = new AppPrefes(this, "app");
         final RecyclerView rv = (RecyclerView) findViewById(R.id.rv);
         LinearLayoutManager llm = new LinearLayoutManager(this);

@@ -63,7 +63,7 @@ public class OrdersWillDelivery extends AppCompatActivity {
         });
 
         Retrofit retrofit = new Retrofit.Builder()
-                .baseUrl( "172.246.241.129")
+                .baseUrl( "http://ypinsksa.com/")
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
 
