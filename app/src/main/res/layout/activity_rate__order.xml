@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_rate__order"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="example.com.newnav1.Rate_Order">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#1f3aa8"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/arrow"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="6dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="4dp"
+            android:id="@+id/back"
+            />
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:text=" التقييم "
+            android:layout_marginLeft="80dp"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:gravity="center"
+            />
+    </LinearLayout>
+
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:id="@+id/ratingBar" />
+
+    <Button
+        android:text="تقييم"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textSize="17dp"
+        android:background="@android:color/holo_orange_dark"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:id="@+id/btn_rate" />
+
+
+</LinearLayout>

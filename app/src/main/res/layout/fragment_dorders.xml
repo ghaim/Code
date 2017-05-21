@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/background_light"
+    tools:context="example.com.newnav1.OrdersFragment">
+
+    <Button
+        android:text="طلبات تم توصيلها"
+        android:layout_width="match_parent"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/req_delvired"
+        android:layout_height="70dp"
+        android:layout_marginTop="54dp"
+        android:id="@+id/btn_orders_delveried" />
+    <Button
+        android:text="طلبات قيد الإنتظار"
+        android:layout_width="match_parent"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:gravity="center"
+        android:background="@drawable/req_waiting"
+        android:layout_height="70dp"
+        android:layout_marginTop="54dp"
+        android:id="@+id/btn_orders_waiting" />
+    <Button
+        android:text="طلبات قيد التوصيل"
+        android:layout_width="match_parent"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/req_will_deliverd"
+        android:layout_height="70dp"
+        android:layout_marginTop="54dp"
+        android:id="@+id/btn_orders_willdelvery" />
+
+</LinearLayout>

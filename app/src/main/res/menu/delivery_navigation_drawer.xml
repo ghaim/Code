@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/myaccount"
+            android:icon="@drawable/user"
+            android:title="عرض حسابي" />
+        <item
+            android:id="@+id/d_orders"
+            android:icon="@drawable/orders"
+            android:title="الطلبات" />
+
+        <item
+            android:id="@+id/callus"
+            android:icon="@drawable/chat"
+            android:title="التواصل مع الدعم والبلاغات" />
+
+    </group>
+
+    <group android:checkableBehavior="single">
+
+    </group>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/signout"
+            android:title="تسجيل الخروج" />
+    </group>
+
+</menu>

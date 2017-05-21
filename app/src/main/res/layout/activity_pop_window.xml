@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="example.com.newnav1.PopWindow">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:layout_width="290dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:hint="إسم الزبـــون"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/Customer_name" />
+
+            <EditText
+                android:layout_width="290dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:hint="رقم الزبـــون"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/Customer_phone_no" />
+            <EditText
+                android:layout_width="290dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:hint="حي الزبـــون"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/Custome_location" />
+            <EditText
+                android:layout_width="290dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:hint="حي البائع"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/Seller_location" />
+
+            <EditText
+                android:layout_width="290dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:hint="الشارع الرئيسي للزبون"
+                android:inputType="textPersonName"
+                android:ems="10" />
+            <EditText
+                android:layout_width="290dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:hint="شارع المنزل"
+                android:inputType="textPersonName"
+                android:ems="10" />
+            <EditText
+                android:layout_width="290dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:hint="رقم المنزل ( إن وجد )"
+                android:inputType="textPersonName"
+                android:ems="10" />
+
+            <TextView
+                android:text="موقع الزبون :"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="4dp"
+                android:layout_gravity="right"
+                android:textColor="@android:color/background_dark"
+                android:layout_marginRight="30dp"
+                android:textSize="15dp"
+                android:id="@+id/textView5" />
+
+            <Button
+                android:text="الخريطة"
+                android:layout_width="160dp"
+                android:layout_gravity="center"
+                android:layout_height="40dp"
+                android:background="@android:color/background_dark"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:drawableRight="@drawable/place_bac"
+                android:textSize="17dp"
+                android:id="@+id/map_costomor" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:hint="هنا يتم ظهور احداثيات الزبون في موقعه الحالي"
+                android:layout_marginTop="10dp"
+                android:background="#ffffff"
+                android:id="@+id/place" />
+
+            <EditText
+                android:layout_width="290dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:hint="نوع المنتج المطلوب"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/Product_Name" />
+
+            <TextView
+                android:layout_width="290dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:textSize="17dp"
+                android:text="سعر التوصيل 35 ريال"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/Delivery_price" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <EditText
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:hint="2500"
+                    android:layout_marginRight="20dp"
+                    android:inputType="textPersonName"
+                    android:ems="10"
+                    android:id="@+id/Payment_type" />
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="المبلغ التي سيتم دفعه عند الاستلام"
+                    android:textColor="#000000"
+                    android:inputType="textPersonName"
+                    android:ems="10" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

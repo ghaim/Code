@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_new_user"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="example.com.newnav1.RegisterUserActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#1f3aa8"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/back"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="4dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="6dp"
+            android:background="@drawable/arrow" />
+
+        <TextView
+            android:layout_width="180dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="80dp"
+            android:gravity="center"
+            android:text=" تسجيل مستخدم جديد "
+            android:textColor="#ffffff"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/edit_mobile_num"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:background="@android:color/background_dark"
+        android:drawableRight="@drawable/user_black"
+        android:ems="10"
+        android:hint="05########"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textColor="@android:drawable/screen_background_light"
+        android:textColorHint="@android:color/background_light"
+        android:textSize="18dp" />
+
+    <EditText
+        android:id="@+id/edit_first_name"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/background_dark"
+        android:drawableRight="@drawable/user_black"
+        android:ems="10"
+        android:hint="الإسم الأول"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textColor="@android:drawable/screen_background_light"
+        android:textColorHint="@android:color/background_light"
+        android:textSize="18dp" />
+
+    <EditText
+        android:id="@+id/edit_second_name"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/background_dark"
+        android:drawableRight="@drawable/user_black"
+        android:ems="10"
+        android:hint="الإسم الثاني"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textColor="@android:drawable/screen_background_light"
+        android:textColorHint="@android:color/background_light"
+        android:textSize="18dp" />
+
+    <EditText
+        android:id="@+id/edit_mail"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/background_dark"
+        android:drawableRight="@drawable/mail_black"
+        android:ems="10"
+        android:hint="البريد الإلكتروني"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textColor="@android:drawable/screen_background_light"
+        android:textColorHint="@android:color/background_light"
+        android:textSize="18dp" />
+
+    <EditText
+        android:id="@+id/edit_pass"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/background_dark"
+        android:drawableRight="@drawable/pass_black"
+        android:ems="10"
+        android:hint="كلمة المرور"
+        android:inputType="textPassword"
+        android:textAlignment="center"
+        android:textColor="@android:drawable/screen_background_light"
+        android:textColorHint="@android:color/background_light"
+        android:textSize="18dp" />
+
+    <EditText
+        android:id="@+id/edit_pass1"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/background_dark"
+        android:drawableRight="@drawable/pass_black"
+        android:ems="10"
+        android:hint="أعد كلمة المرور"
+        android:inputType="textPassword"
+        android:textAlignment="center"
+        android:textColor="@android:drawable/screen_background_light"
+        android:textColorHint="@android:color/background_light"
+        android:textSize="18dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="92dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/image" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginRight="50dp"
+            android:gravity="right|center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="إختيار صورة شخصية"
+                android:textColor="#000000"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="نوع العضوية :"
+                android:textSize="15dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/sekizbit_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/sekizbit_switch_btn_left"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/sekizbit_selector_btn_left"
+            android:text="بائع"
+            android:textColor="@drawable/sekizbit_selector_btn_text_color"
+            android:textSize="12dp" />
+
+        <Button
+            android:id="@+id/sekizbit_switch_btn_right"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="-1dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/sekizbit_selector_btn_right"
+            android:text="مندوب"
+            android:textColor="@drawable/sekizbit_selector_btn_text_color"
+            android:textSize="12dp" />
+    </LinearLayout>
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/category"
+        style="@style/Base.Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="نوع العمل" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:text="أوافق علي الشروط والأحكام"
+        android:textAlignment="center"
+        android:textSize="17dp" />
+
+
+    <Button
+        android:id="@+id/btn_reg"
+        style="@style/Base.Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="تسجيل"
+        android:textAlignment="center"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+</LinearLayout>
