@@ -7,8 +7,8 @@
     tools:context="example.com.newnav1.NewOrderFragment">
 
     <ScrollView
-        android:layout_width="1045dp"
-        android:layout_height="1584dp">
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
         <LinearLayout
             android:layout_width="match_parent"
